@@ -18,7 +18,28 @@ stations = [
   {"name":"Shelbyville Station 693","lat":39.5055857,"lon":-85.7945173},
   {"name":"Franklin Station 23","lat":39.523629,"lon":-86.0737878},
   {"name":"Greenwood Station 91","lat":39.6134433,"lon":-86.1040209},
-  {"name":"St Paul Fire","lat":39.4282778,"lon":-85.6285885},
+  {"name":"St Paul Station 41","lat":39.4282778,"lon":-85.6285885},
+  {"name":"Sugar Creek Township Station 42","lat":39.7762501,"lon":-85.896068},
 ]
+
+engines = [
+  {"name":"73-Fairland-E621","lat":39.5844416,"lon":-85.8572277},
+  {"name":"73-Fairland-R621","lat":39.5844416,"lon":-85.8572277},
+  {"name":"73-Moral-E681","lat":39.6387254,"lon":-85.9070139},
+  {"name":"73-Moral-E682","lat":39.6387254,"lon":-85.9070139},
+  {"name":"73-Shelbyville-E691","lat":39.5227097,"lon":-85.7786288},
+  {"name":"73-Morristown-E651","lat":39.6760901,"lon":-85.7045637},
+  {"name":"73-Morristown-E652","lat":39.6760901,"lon":-85.7045637},
+  {"name":"73-Waldron-E641","lat":39.4537326,"lon":-85.6662435},
+  {"name":"30-Sugar Creek-E445","lat":39.7338448,"lon":-85.9131422},
+  {"name":"73-Shelbyville-E693","lat":39.5055857,"lon":-85.7945173},
+  {"name":"41-Franklin-E23","lat":39.523629,"lon":-86.0737878},
+  {"name":"16-St. Paul-E841","lat":39.4282778,"lon":-85.6285885},
+  {"name":"30-Sugar Creek-E442","lat":39.7762501,"lon":-85.896068},
+]
+
 def get_stations():
   return [(i["lon"], i["lat"]) for i in stations]
+
+def get_engines():
+  return [i for i in engines]
