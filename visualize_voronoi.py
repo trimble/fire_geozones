@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.spatial.qhull import Voronoi
 
 def voronoi_finite_polygons_2d(vor, radius=None):
     """
@@ -81,7 +82,10 @@ def voronoi_finite_polygons_2d(vor, radius=None):
 
     return new_regions, np.asarray(new_vertices)
 
-def visualize(vor, points) -> None:
+def visualize(points) -> None:
+  points = sorted(set(points))
+  
+  vor = Voronoi(points)
   # plot
   regions, vertices = voronoi_finite_polygons_2d(vor)
 
