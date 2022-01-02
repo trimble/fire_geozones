@@ -22,5 +22,3 @@ stations = [
 ]
 def get_stations():
   return [(i["lon"], i["lat"]) for i in stations]
-
-print(get_stations())
