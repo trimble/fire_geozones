@@ -38,8 +38,11 @@ engines = [
   {"name":"30-Sugar Creek-E442","lat":39.7762501,"lon":-85.896068},
 ]
 
-def get_stations():
+def get_station_locations():
   return [(i["lon"], i["lat"]) for i in stations]
 
+def get_stations():
+  return stations
+
 def get_engines():
-  return [i for i in engines]
+  return engines
