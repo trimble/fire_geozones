@@ -17,9 +17,9 @@ stations = [
   {"name":"Shelbyville Station 692","lat":39.51627,"lon":-85.7434899},
   {"name":"Shelbyville Station 693","lat":39.5055857,"lon":-85.7945173},
   {"name":"Franklin Station 23","lat":39.523629,"lon":-86.0737878},
-  {"name":"Greenwood Station 91","lat":39.6134433,"lon":-86.1040209},
   {"name":"St Paul Station 41","lat":39.4282778,"lon":-85.6285885},
   {"name":"Sugar Creek Township Station 42","lat":39.7762501,"lon":-85.896068},
+  {"name":"Greenwood Station 91","lat":39.6134433,"lon":-86.1040209},
 ]
 
 engines = [
