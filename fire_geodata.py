@@ -20,5 +20,5 @@ stations = [
   {"name":"Greenwood Station 91","lat":39.6134433,"lon":-86.1040209},
   {"name":"St Paul Fire","lat":39.4282778,"lon":-85.6285885},
 ]
-def get_stations():
+def get_stations() -> list:
   return [(i["lon"], i["lat"]) for i in stations]
