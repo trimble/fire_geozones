@@ -38,6 +38,25 @@ engines = [
   {"name":"30-Sugar Creek-E442","lat":39.7762501,"lon":-85.896068},
 ]
 
+tankers = [
+  {"name":"73-Fairland-T622","lat":39.5844416,"lon":-85.8572277},
+  {"name":"73-Fairland-T621","lat":39.5844416,"lon":-85.8572277},
+  {"name":"73-Moral-T681","lat":39.6387254,"lon":-85.9070139},
+  {"name":"41-Needham-PT81","lat":39.529953,"lon":-85.9709754},
+  {"name":"41-Needham-T82","lat":39.6040567,"lon":-85.9990409},
+  {"name":"73-Marietta-T671","lat":39.4406702,"lon":-85.8810707},
+  {"name":"41-Whiteland-T71","lat":39.5484272,"lon":-86.0747433},
+  {"name":"49-IFD-T16","lat":39.6691316,"lon":-86.0065276},
+  {"name":"73-Fountaintown-T612","lat":39.6937218,"lon":-85.779439},
+  {"name":"73-Fountaintown-T613","lat":39.6937218,"lon":-85.779439},
+  {"name":"49-IFD-T55","lat":39.6962247,"lon":-85.9795233},
+  {"name":"73-Morristown-T651","lat":39.6760901,"lon":-85.7045637},
+  {"name":"73-Morristown-T652","lat":39.6760901,"lon":-85.7045637},
+  {"name":"73-Waldron-T641","lat":39.4537326,"lon":-85.6662435},
+  {"name":"30-Sugar Creek-T442","lat":39.7762501,"lon":-85.896068},
+  {"name":"73-Flatrock-T631","lat":39.3641328,"lon":-85.8309059},
+]
+
 def get_station_locations():
   return [(i["lon"], i["lat"]) for i in stations]
 
@@ -46,3 +65,6 @@ def get_stations():
 
 def get_engines():
   return engines
+
+def get_tankers():
+  return tankers
