@@ -38,6 +38,14 @@ engines = [
   {"name":"30-Sugar Creek-E442","lat":39.7762501,"lon":-85.896068},
 ]
 
+ladders = [
+  {"name":"73-Shelbyville-L692","lat":39.51627,"lon":-85.7434899},
+  {"name":"41-Franklin-L23","lat":39.523629,"lon":-86.0737878},
+  {"name":"41-Greenwood-L91","lat":39.6134433,"lon":-86.1040209},
+  {"name":"30-Sugar Creek-L445","lat":39.7338448,"lon":-85.9131422},
+  {"name":"49-IFD-L55","lat":39.6962247,"lon":-85.9795233},
+]
+
 tankers = [
   {"name":"73-Fairland-T622","lat":39.5844416,"lon":-85.8572277},
   {"name":"73-Fairland-T621","lat":39.5844416,"lon":-85.8572277},
@@ -68,3 +76,6 @@ def get_engines():
 
 def get_tankers():
   return tankers
+
+def get_ladders():
+  return ladders
