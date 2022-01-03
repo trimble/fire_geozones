@@ -23,7 +23,7 @@ stations = [
   {"id":22,"name":"Greenwood Station 94","lat":39.625805791286666,"lon":-86.06305093068505},
   {"id":23,"name":"New Whiteland Station 11","lat":39.5577404582559,"lon":-86.09102800041359},
   {"id":24,"name":"Franklin Station 22","lat":39.482230271604614,"lon":-86.02353331575846},
-])
+]
 
 engines = [
   {"id":1,"name":"73-Fairland-E621","lat":39.5844416,"lon":-85.8572277},
