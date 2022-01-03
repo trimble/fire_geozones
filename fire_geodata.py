@@ -90,3 +90,6 @@ def get_tankers():
 
 def get_ladders():
   return ladders
+
+if __name__ == '__main__':
+  print(get_stations())
