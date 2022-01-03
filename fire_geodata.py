@@ -20,7 +20,10 @@ stations = [
   {"id":19,"name":"Greenwood Station 91","lat":39.6134433,"lon":-86.1040209},
   {"id":20,"name":"St Paul Station 41","lat":39.4282778,"lon":-85.6285885},
   {"id":21,"name":"Sugar Creek Township Station 42","lat":39.7762501,"lon":-85.896068},
-]
+  {"id":22,"name":"Greenwood Station 94","lat":39.625805791286666,"lon":-86.06305093068505},
+  {"id":23,"name":"New Whiteland Station 11","lat":39.5577404582559,"lon":-86.09102800041359},
+  {"id":24,"name":"Franklin Station 22","lat":39.482230271604614,"lon":-86.02353331575846},
+])
 
 engines = [
   {"id":1,"name":"73-Fairland-E621","lat":39.5844416,"lon":-85.8572277},
@@ -36,6 +39,14 @@ engines = [
   {"id":11,"name":"41-Franklin-E23","lat":39.523629,"lon":-86.0737878},
   {"id":12,"name":"16-St. Paul-E841","lat":39.4282778,"lon":-85.6285885},
   {"id":13,"name":"30-Sugar Creek-E442","lat":39.7762501,"lon":-85.896068},
+  {"id":14,"name":"41-Needham-PT81","lat":39.529953,"lon":-85.9709754},
+  {"id":15,"name":"41-Needham-E82","lat":39.6040567,"lon":-85.9990409},
+  {"id":16,"name":"73-Marietta-E671","lat":39.4406702,"lon":-85.8810707},
+  {"id":17,"name":"49-IFD-E16","lat":39.6691316,"lon":-86.0065276},
+  {"id":18,"name":"41-Whiteland-E71","lat":39.5484272,"lon":-86.0747433},
+  {"id":19,"name":"41-Greenwood-E94","lat":39.625805791286666,"lon":-86.06305093068505},
+  {"id":20,"name":"41-New Whiteland-E11","lat":39.5577404582559,"lon":-86.09102800041359},
+  {"id":21,"name":"41-Franklin-E22","lat":39.482230271604614,"lon":-86.02353331575846},
 ]
 
 ladders = [
