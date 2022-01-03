@@ -27,7 +27,7 @@ stations = pd.DataFrame([
   {"id":24,"name":"Franklin Station 22","lat":39.482230271604614,"lon":-86.02353331575846},
 ])
 
-engines = [
+engines = pd.DataFrame([
   {"id":1,"name":"73-Fairland-E621","lat":39.5844416,"lon":-85.8572277},
   {"id":2,"name":"73-Fairland-R621","lat":39.5844416,"lon":-85.8572277},
   {"id":3,"name":"73-Moral-E681","lat":39.6387254,"lon":-85.9070139},
@@ -49,17 +49,17 @@ engines = [
   {"id":19,"name":"41-Greenwood-E94","lat":39.625805791286666,"lon":-86.06305093068505},
   {"id":20,"name":"41-New Whiteland-E11","lat":39.5577404582559,"lon":-86.09102800041359},
   {"id":21,"name":"41-Franklin-E22","lat":39.482230271604614,"lon":-86.02353331575846},
-]
+])
 
-ladders = [
+ladders = pd.DataFrame([
   {"id":1,"name":"73-Shelbyville-L692","lat":39.51627,"lon":-85.7434899},
   {"id":2,"name":"41-Franklin-L23","lat":39.523629,"lon":-86.0737878},
   {"id":3,"name":"41-Greenwood-L91","lat":39.6134433,"lon":-86.1040209},
   {"id":4,"name":"30-Sugar Creek-L445","lat":39.7338448,"lon":-85.9131422},
   {"id":5,"name":"49-IFD-L55","lat":39.6962247,"lon":-85.9795233},
-]
+])
 
-tankers = [
+tankers = pd.DataFrame([
   {"id":1,"name":"73-Fairland-T622","lat":39.5844416,"lon":-85.8572277},
   {"id":2,"name":"73-Fairland-T621","lat":39.5844416,"lon":-85.8572277},
   {"id":3,"name":"73-Moral-T681","lat":39.6387254,"lon":-85.9070139},
@@ -76,22 +76,22 @@ tankers = [
   {"id":14,"name":"73-Waldron-T641","lat":39.4537326,"lon":-85.6662435},
   {"id":15,"name":"30-Sugar Creek-T442","lat":39.7762501,"lon":-85.896068},
   {"id":16,"name":"73-Flatrock-T631","lat":39.3641328,"lon":-85.8309059},
-]
+])
 
 def get_station_locations():
   return list(zip(stations.lat, stations.lon))
 
 def get_stations():
-  return stations
+  return stations.drop(columns=['id'])
 
 def get_engines():
-  return engines
+  return engines.drop(columns=['id'])
 
 def get_tankers():
-  return tankers
+  return tankers.drop(columns=['id'])
 
 def get_ladders():
-  return ladders
+  return ladders.drop(columns=['id'])
 
 if __name__ == '__main__':
-  print(get_stations())
+  print(get_engines())
