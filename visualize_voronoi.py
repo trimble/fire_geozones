@@ -82,7 +82,7 @@ def voronoi_finite_polygons_2d(vor, radius=None):
 
     return new_regions, np.asarray(new_vertices)
 
-def visualize(apparati) -> None:
+def visualize(apparati, additional_points=None) -> None:
   points = []
   for apparatus in apparati:
     coordinates = (apparatus['lon'], apparatus['lat'])
@@ -106,6 +106,14 @@ def visualize(apparati) -> None:
     ys.append(point[1])
 
   plt.plot(xs, ys, 'ko')
+  
+  if additional_points != None:
+    if type(additional_points) == tuple:
+      plt.plot(additional_points[0], additional_points[1], 'rx')
+    else:
+      for point in additional_points:
+        plt.plot(point[0], point[1], 'rx')
+  
   plt.axis('equal')
   plt.xlim(vor.min_bound[0] - 0.1, vor.max_bound[0] + 0.1)
   plt.ylim(vor.min_bound[1] - 0.1, vor.max_bound[1] + 0.1)

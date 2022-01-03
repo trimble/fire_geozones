@@ -5,14 +5,14 @@ from visualize_voronoi import visualize
 def main() -> None:
   engines = gd.get_engines()
   
-  sample_point = (-85.86555, 39.58414)
+  sample_point = (-85.8572277, 39.584416)
   
   response_order = coverage_list(sample_point, engines)
   
   for engine in response_order:
     print(engine)
   
-  visualize(engines)
+  visualize(engines, sample_point)
 
 def get_distance(a: tuple, b: tuple) -> float:
   inside = 0
