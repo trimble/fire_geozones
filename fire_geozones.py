@@ -11,12 +11,7 @@ def main() -> None:
   for engine in response_order:
     print(engine)
   
-  engine_locations = []
-  for engine in engines:
-    coordinates = (engine['lon'], engine['lat'])
-    engine_locations.append(coordinates)
-  
-  visualize(engine_locations)
+  visualize(engines)
 
 def get_distance(a: tuple, b: tuple) -> float:
   inside = 0

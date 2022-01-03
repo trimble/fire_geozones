@@ -82,7 +82,12 @@ def voronoi_finite_polygons_2d(vor, radius=None):
 
     return new_regions, np.asarray(new_vertices)
 
-def visualize(points) -> None:
+def visualize(apparati) -> None:
+  points = []
+  for apparatus in apparati:
+    coordinates = (apparatus['lon'], apparatus['lat'])
+    points.append(coordinates)
+
   points = sorted(set(points))
   
   vor = Voronoi(points)
