@@ -1,4 +1,6 @@
-stations = [
+import pandas as pd
+
+stations = pd.DataFrame([
   {"id":1,"name":"Fairland Station 621","lat":39.5844416,"lon":-85.8572277},
   {"id":2,"name":"Moral Township Station 681","lat":39.6387254,"lon":-85.9070139},
   {"id":3,"name":"Needham Station 81","lat":39.529953,"lon":-85.9709754},
@@ -77,7 +79,7 @@ tankers = [
 ]
 
 def get_station_locations():
-  return [(i["lon"], i["lat"]) for i in stations]
+  return list(zip(stations.lat, stations.lon))
 
 def get_stations():
   return stations

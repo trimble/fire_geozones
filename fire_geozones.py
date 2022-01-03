@@ -12,7 +12,12 @@ def main() -> None:
   for engine in response_order:
     print(engine)
   
-  visualize(engines, sample_point)
+  # engine_locations = []
+  # for engine in engines:
+  #   coordinates = (engine['lon'], engine['lat'])
+  #   engine_locations.append(coordinates)
+  
+  # visualize(engine_locations)
 
 def get_distance(a: tuple, b: tuple) -> float:
   inside = 0
@@ -43,7 +48,9 @@ def coverage_list(location: tuple, apparati: list) -> list:
   while len(distances) > 0:
     closest_location = min(distances)
     closest_index = distances.index(closest_location)
-    response_order.append(apparatus_names.pop(closest_index))
+    nearest_engine = apparatus_names.pop(closest_index)
+    response_order.append(nearest_engine)
+    print(f"engine = {nearest_engine}, dist = {closest_location}")
     distances.pop(closest_index)
   
   return response_order
