@@ -9,8 +9,8 @@ def main() -> None:
   
   response_order = coverage_list(sample_point, engines)
   
-  # for engine in response_order:
-  #   print(engine)
+  for engine in response_order:
+    print(engine)
   
   visualize(engines)
   
@@ -53,7 +53,6 @@ def coverage_list(location: tuple, apparati: list) -> list:
     closest_index = distances.index(closest_location)
     nearest_engine = apparatus_names.pop(closest_index)
     response_order.append(nearest_engine)
-    print(f"engine = {nearest_engine}, dist = {closest_location}")
     distances.pop(closest_index)
   
   return response_order
