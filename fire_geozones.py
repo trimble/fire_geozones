@@ -9,8 +9,10 @@ def main() -> None:
   
   response_order = coverage_list(sample_point, engines)
   
-  for engine in response_order:
-    print(engine)
+  # for engine in response_order:
+  #   print(engine)
+  
+  visualize(engines)
   
   # engine_locations = []
   # for engine in engines:
@@ -33,7 +35,8 @@ def get_distance(a: tuple, b: tuple) -> float:
 def coverage_list(location: tuple, apparati: list) -> list:
   apparatus_locations = []
   apparatus_names = []
-  for apparatus in apparati:
+  for apparatus_index in range(len(apparati)):
+    apparatus = apparati.iloc[apparatus_index]
     coordinates = (apparatus['lon'], apparatus['lat'])
     apparatus_locations.append(coordinates)
     apparatus_names.append(apparatus['name'])

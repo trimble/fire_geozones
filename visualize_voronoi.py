@@ -84,7 +84,8 @@ def voronoi_finite_polygons_2d(vor, radius=None):
 
 def visualize(apparati, additional_points=None) -> None:
   points = []
-  for apparatus in apparati:
+  for apparatus_index in range(len(apparati)):
+    apparatus = apparati.iloc[apparatus_index]
     coordinates = (apparatus['lon'], apparatus['lat'])
     points.append(coordinates)
 
