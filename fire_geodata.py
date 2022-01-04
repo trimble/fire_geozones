@@ -28,27 +28,27 @@ stations = pd.DataFrame([
 ])
 
 engines = pd.DataFrame([
-  {"id":1,"name":"73-Fairland-E621","lat":39.5844416,"lon":-85.8572277},
-  {"id":2,"name":"73-Fairland-R621","lat":39.5844416,"lon":-85.8572277},
-  {"id":3,"name":"73-Moral-E681","lat":39.6387254,"lon":-85.9070139},
-  {"id":4,"name":"73-Moral-E682","lat":39.6387254,"lon":-85.9070139},
-  {"id":5,"name":"73-Shelbyville-E691","lat":39.5227097,"lon":-85.7786288},
-  {"id":6,"name":"73-Morristown-E651","lat":39.6760901,"lon":-85.7045637},
-  {"id":7,"name":"73-Morristown-E652","lat":39.6760901,"lon":-85.7045637},
-  {"id":8,"name":"73-Waldron-E641","lat":39.4537326,"lon":-85.6662435},
-  {"id":9,"name":"30-Sugar Creek-E445","lat":39.7338448,"lon":-85.9131422},
-  {"id":10,"name":"73-Shelbyville-E693","lat":39.5055857,"lon":-85.7945173},
-  {"id":11,"name":"41-Franklin-E23","lat":39.523629,"lon":-86.0737878},
-  {"id":12,"name":"16-St. Paul-E841","lat":39.4282778,"lon":-85.6285885},
-  {"id":13,"name":"30-Sugar Creek-E442","lat":39.7762501,"lon":-85.896068},
-  {"id":14,"name":"41-Needham-PT81","lat":39.529953,"lon":-85.9709754},
-  {"id":15,"name":"41-Needham-E82","lat":39.6040567,"lon":-85.9990409},
-  {"id":16,"name":"73-Marietta-E671","lat":39.4406702,"lon":-85.8810707},
-  {"id":17,"name":"49-IFD-E16","lat":39.6691316,"lon":-86.0065276},
-  {"id":18,"name":"41-Whiteland-E71","lat":39.5484272,"lon":-86.0747433},
-  {"id":19,"name":"41-Greenwood-E94","lat":39.625805791286666,"lon":-86.06305093068505},
-  {"id":20,"name":"41-New Whiteland-E11","lat":39.5577404582559,"lon":-86.09102800041359},
-  {"id":21,"name":"41-Franklin-E22","lat":39.482230271604614,"lon":-86.02353331575846},
+  {"id":1,"name":"73-Fairland-E621","station_id":1},
+  {"id":2,"name":"73-Fairland-R621","station_id":1},
+  {"id":3,"name":"73-Moral-E681","station_id":2},
+  {"id":4,"name":"73-Moral-E682","station_id":2},
+  {"id":5,"name":"73-Shelbyville-E691","station_id":5},
+  {"id":6,"name":"73-Morristown-E651","station_id":10},
+  {"id":7,"name":"73-Morristown-E652","station_id":10},
+  {"id":8,"name":"73-Waldron-E641","station_id":11},
+  {"id":9,"name":"30-Sugar Creek-E445","station_id":13},
+  {"id":10,"name":"73-Shelbyville-E693","station_id":17},
+  {"id":11,"name":"41-Franklin-E23","station_id":18},
+  {"id":12,"name":"16-St. Paul-E841","station_id":20},
+  {"id":13,"name":"30-Sugar Creek-E442","station_id":21},
+  {"id":14,"name":"41-Needham-PT81","station_id":3},
+  {"id":15,"name":"41-Needham-E82","station_id":7},
+  {"id":16,"name":"73-Marietta-E671","station_id":4},
+  {"id":17,"name":"49-IFD-E16","station_id":6},
+  {"id":18,"name":"41-Whiteland-E71","station_id":15},
+  {"id":19,"name":"41-Greenwood-E94","station_id":22},
+  {"id":20,"name":"41-New Whiteland-E11","station_id":23},
+  {"id":21,"name":"41-Franklin-E22","station_id":24},
 ])
 
 ladders = pd.DataFrame([
@@ -85,7 +85,7 @@ def get_stations():
   return stations.drop(columns=['id'])
 
 def get_engines():
-  return engines.drop(columns=['id'])
+  return engines.join(stations.set_index('id'), on='station_id', lsuffix='_engine', rsuffix='_station')[['name_engine','lat','lon']].rename(columns={'name_engine':'name'})
 
 def get_tankers():
   return tankers.drop(columns=['id'])
