@@ -41,7 +41,7 @@ apparatus = pd.DataFrame([
   {"id":11,"name":"41-Franklin-E23","station_id":18,"types":"engine"},
   {"id":12,"name":"16-St. Paul-E841","station_id":20,"types":"engine"},
   {"id":13,"name":"30-Sugar Creek-E442","station_id":21,"types":"engine"},
-  {"id":14,"name":"41-Needham-PT81","station_id":3,"types":"engine"},
+  {"id":14,"name":"41-Needham-PT81","station_id":3,"types":"engine,tanker"},
   {"id":15,"name":"41-Needham-E82","station_id":7,"types":"engine"},
   {"id":16,"name":"73-Marietta-E671","station_id":4,"types":"engine"},
   {"id":17,"name":"49-IFD-E16","station_id":6,"types":"engine"},
@@ -54,25 +54,21 @@ apparatus = pd.DataFrame([
   {"id":24,"name":"41-Greenwood-L91","station_id":19,"types":"ladder"},
   {"id":25,"name":"30-Sugar Creek-L445","station_id":13,"types":"ladder"},
   {"id":26,"name":"49-IFD-L55","station_id":9,"types":"ladder"},
-])
-
-tankers = pd.DataFrame([
-  {"id":1,"name":"73-Fairland-T622","lat":39.5844416,"lon":-85.8572277},
-  {"id":2,"name":"73-Fairland-T621","lat":39.5844416,"lon":-85.8572277},
-  {"id":3,"name":"73-Moral-T681","lat":39.6387254,"lon":-85.9070139},
-  {"id":4,"name":"41-Needham-PT81","lat":39.529953,"lon":-85.9709754},
-  {"id":5,"name":"41-Needham-T82","lat":39.6040567,"lon":-85.9990409},
-  {"id":6,"name":"73-Marietta-T671","lat":39.4406702,"lon":-85.8810707},
-  {"id":7,"name":"41-Whiteland-T71","lat":39.5484272,"lon":-86.0747433},
-  {"id":8,"name":"49-IFD-T16","lat":39.6691316,"lon":-86.0065276},
-  {"id":9,"name":"73-Fountaintown-T612","lat":39.6937218,"lon":-85.779439},
-  {"id":10,"name":"73-Fountaintown-T613","lat":39.6937218,"lon":-85.779439},
-  {"id":11,"name":"49-IFD-T55","lat":39.6962247,"lon":-85.9795233},
-  {"id":12,"name":"73-Morristown-T651","lat":39.6760901,"lon":-85.7045637},
-  {"id":13,"name":"73-Morristown-T652","lat":39.6760901,"lon":-85.7045637},
-  {"id":14,"name":"73-Waldron-T641","lat":39.4537326,"lon":-85.6662435},
-  {"id":15,"name":"30-Sugar Creek-T442","lat":39.7762501,"lon":-85.896068},
-  {"id":16,"name":"73-Flatrock-T631","lat":39.3641328,"lon":-85.8309059},
+  {"id":27,"name":"73-Fairland-T622","station_id":1,"types":"tanker"},
+  {"id":28,"name":"73-Fairland-T621","station_id":1,"types":"tanker"},
+  {"id":29,"name":"73-Moral-T681","station_id":2,"types":"tanker"},
+  {"id":31,"name":"41-Needham-T82","station_id":7,"types":"tanker"},
+  {"id":32,"name":"73-Marietta-T671","station_id":4,"types":"tanker"},
+  {"id":33,"name":"41-Whiteland-T71","station_id":15,"types":"tanker"},
+  {"id":34,"name":"49-IFD-T16","station_id":6,"types":"tanker"},
+  {"id":35,"name":"73-Fountaintown-T612","station_id":8,"types":"tanker"},
+  {"id":36,"name":"73-Fountaintown-T613","station_id":8,"types":"tanker"},
+  {"id":37,"name":"49-IFD-T55","station_id":9,"types":"tanker"},
+  {"id":38,"name":"73-Morristown-T651","station_id":10,"types":"tanker"},
+  {"id":39,"name":"73-Morristown-T652","station_id":10,"types":"tanker"},
+  {"id":40,"name":"73-Waldron-T641","station_id":11,"types":"tanker"},
+  {"id":41,"name":"30-Sugar Creek-T442","station_id":21,"types":"tanker"},
+  {"id":42,"name":"73-Flatrock-T631","station_id":12,"types":"tanker"},
 ])
 
 def get_station_locations():
@@ -82,14 +78,15 @@ def get_stations():
   return stations.drop(columns=['id'])
 
 def get_engines():
-  return apparatus[apparatus['types'].str.contains("engine")].join(stations.set_index('id'), on='station_id', lsuffix='_engine', rsuffix='_station')[['name_engine','lat','lon']].rename(columns={'name_engine':'name'})
+  return apparatus[apparatus['types'].str.contains("engine")].join(stations.set_index('id'), on='station_id', lsuffix='_apparatus', rsuffix='_station')[['name_apparatus','lat','lon']].rename(columns={'name_apparatus':'name'})
 
 def get_tankers():
-  return tankers.drop(columns=['id'])
+  return apparatus[apparatus['types'].str.contains("tanker")].join(stations.set_index('id'), on='station_id', lsuffix='_apparatus', rsuffix='_station')[['name_apparatus','lat','lon']].rename(columns={'name_apparatus':'name'})
 
 def get_ladders():
-  return apparatus[apparatus['types'].str.contains("ladder")].join(stations.set_index('id'), on='station_id', lsuffix='_ladder', rsuffix='_station')[['name_ladder','lat','lon']].rename(columns={'name_ladder':'name'})
+  return apparatus[apparatus['types'].str.contains("ladder")].join(stations.set_index('id'), on='station_id', lsuffix='_apparatus', rsuffix='_station')[['name_apparatus','lat','lon']].rename(columns={'name_apparatus':'name'})
 
 if __name__ == '__main__':
   print(get_engines())
+  print(get_tankers())
   print(get_ladders())
