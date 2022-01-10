@@ -1,0 +1,567 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Indiana Department of Transportation, Road Inventory Section (creator and processor)
+      Publication_Date: 20160701
+      Title: ROADS_2015_INDOT_IN: Indiana Roads from the Indiana Department of Transportation, 2015 (INDOT, 1:100,000, Line Shapefile)
+      Geospatial_Data_Presentation_Form: Vector digital data
+      Publication_Information:
+        Publication_Place: Indianapolis, Indiana
+        Publisher: Indiana Department of Transportation, Road Inventory Section
+      Other_Citation_Details:
+        This data set was provided to personnel of the Indiana Geological Survey (IGS) by Indiana Department of Transportation, Road
+        Inventory Section personnel. The data set provided was in an Esri line feature class, and was named "ROADS." This data set was provided to personnel
+        of the IGS on July 1, 2016.
+      Online_Linkage: http://maps.indiana.edu/layers.html
+  Description:
+    Abstract:
+      ROADS_2015_INDOT_IN.SHP is a line shapefile of Indiana roads, as provided by the Indiana GIS Department of Transportation (INDOT), Road Inventory Section. Data
+      were collected for the years 2006-2015.
+
+      The following is excerpted from the metadata provided by INDOT for the source feature class named "ROADS":
+
+      "Indiana County Log Line Inventory created as an ESRI polyline shapefile consisting of a Feature polyline geometry. The data set was compiled by Road Inventory
+      of the Indiana GIS Department of Transportation (INDOT) . Dataset is classified as sde Feature Class. The Feature Class is projected Coordinate System: NAD 1983,
+      UTM, Zone 16 N. The Projections is Transverse Mercator.Each County Log Line Inventory is placed as to Position.(County Log is a utilized measurement from a
+      County Line intersecting with a Highway Network, for example Interstate, State and US. Measurement is from West to East and South to North). Position also
+      utilizes Jurisdiction, County, Road System, Route Name and Alternative RouteCounty Log line inventory is as of 2006-2015."
+    Purpose:
+      To provide an updated road network of Indiana in a GIS format.
+
+      The following is excerpted from the metadata provided by INDOT for the source feature class named "ROADS":
+
+      "Displays map digitally of Indiana County Log line Inventory in a geospatial polyline format  The data was derived from pre-existing INDOT basemaps and
+      databases. The Data records as collected and described in the table is dated for the year 2006-2015."
+    Supplemental_Information:
+      This data set was provided to personnel of the Indiana Geological Survey (IGS) by Indiana Department of Transportation, Road Inventory Section personnel.
+      The data were provided in an Esri line feature class format. This data were provided to personnel of the IGS on July 1, 2016.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20160701
+    Currentness_Reference: Publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -88.158973
+      East_Bounding_Coordinate: -84.690154
+      North_Bounding_Coordinate: 41.780990
+      South_Bounding_Coordinate: 37.757851
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Geography Network Keyword Thesaurus
+      Theme_Keyword: transportation
+    Theme:
+      Theme_Keyword_Thesaurus: IGS Metadata Thesaurus
+      Theme_Keyword: Indiana Geological Survey (IGS)
+      Theme_Keyword: Indiana Department of Transportation (INDOT)
+      Theme_Keyword: road
+      Theme_Keyword: state road
+      Theme_Keyword: U.S. highway
+      Theme_Keyword: interstate
+      Theme_Keyword: street
+      Theme_Keyword: street centerline
+      Theme_Keyword: street segment
+      Theme_Keyword: county road
+      Theme_Keyword: U.S. Route
+      Theme_Keyword: city street
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Indiana
+      Place_Keyword: Adams County
+      Place_Keyword: Allen County
+      Place_Keyword: Bartholomew County
+      Place_Keyword: Benton County
+      Place_Keyword: Blackford County
+      Place_Keyword: Boone County
+      Place_Keyword: Brown County
+      Place_Keyword: Carroll County
+      Place_Keyword: Cass County
+      Place_Keyword: Clark County
+      Place_Keyword: Clay County
+      Place_Keyword: Clinton County
+      Place_Keyword: Crawford County
+      Place_Keyword: Daviess County
+      Place_Keyword: Dearborn County
+      Place_Keyword: Decatur County
+      Place_Keyword: Dekalb County
+      Place_Keyword: Delaware County
+      Place_Keyword: Dubois County
+      Place_Keyword: Elkhart County
+      Place_Keyword: Fayette County
+      Place_Keyword: Floyd County
+      Place_Keyword: Fountain County
+      Place_Keyword: Franklin County
+      Place_Keyword: Fulton County
+      Place_Keyword: Gibson County
+      Place_Keyword: Grant County
+      Place_Keyword: Greene County
+      Place_Keyword: Hamilton County
+      Place_Keyword: Hancock County
+      Place_Keyword: Harrison County
+      Place_Keyword: Hendricks County
+      Place_Keyword: Henry County
+      Place_Keyword: Howard County
+      Place_Keyword: Huntington County
+      Place_Keyword: Jackson County
+      Place_Keyword: Jasper County
+      Place_Keyword: Jay County
+      Place_Keyword: Jefferson County
+      Place_Keyword: Jennings County
+      Place_Keyword: Johnson County
+      Place_Keyword: Knox County
+      Place_Keyword: Kosciusko County
+      Place_Keyword: Lagrange County
+      Place_Keyword: Lake County
+      Place_Keyword: LaPorte County
+      Place_Keyword: Lawrence County
+      Place_Keyword: Madison County
+      Place_Keyword: Marion County
+      Place_Keyword: Marshall County
+      Place_Keyword: Martin County
+      Place_Keyword: Miami County
+      Place_Keyword: Monroe County
+      Place_Keyword: Montgomery County
+      Place_Keyword: Morgan County
+      Place_Keyword: Newton County
+      Place_Keyword: Noble County
+      Place_Keyword: Ohio County
+      Place_Keyword: Orange County
+      Place_Keyword: Owen County
+      Place_Keyword: Parke County
+      Place_Keyword: Perry County
+      Place_Keyword: Pike County
+      Place_Keyword: Porter County
+      Place_Keyword: Posey County
+      Place_Keyword: Pulaski County
+      Place_Keyword: Putnam County
+      Place_Keyword: Randolph County
+      Place_Keyword: Ripley County
+      Place_Keyword: Rush County
+      Place_Keyword: Scott County
+      Place_Keyword: Shelby County
+      Place_Keyword: Spencer County
+      Place_Keyword: Starke County
+      Place_Keyword: Steuben County
+      Place_Keyword: St Joseph County
+      Place_Keyword: Sullivan County
+      Place_Keyword: Switzerland County
+      Place_Keyword: Tippecanoe County
+      Place_Keyword: Tipton County
+      Place_Keyword: Union County
+      Place_Keyword: Vanderburgh County
+      Place_Keyword: Vermillion County
+      Place_Keyword: Vigo County
+      Place_Keyword: Wabash County
+      Place_Keyword: Warren County
+      Place_Keyword: Warrick County
+      Place_Keyword: Washington County
+      Place_Keyword: Wayne County
+      Place_Keyword: Wells County
+      Place_Keyword: White County
+      Place_Keyword: Whitley County
+  Access_Constraints:
+    This file is available to anyone, but access may be contingent on written request, specific terms relevant to the agency or person making the request, and/or current
+    freedom of information statutes in the state of Indiana.
+  Use_Constraints:
+    INDIANA GEOLOGICAL SURVEY DATA DISCLAIMER
+
+    This data set is provided by Indiana University, Indiana Geological Survey, and contains data believed to be accurate; however, a degree of error
+    is inherent in all data. This product is distributed "AS-IS" without warranties of any kind, either expressed or implied, including but not
+    limited to warranties of suitability of a particular purpose or use. No attempt has been made in either the designed format or production of these data to
+    define the limits or jurisdiction of any federal, state, or local government.
+
+    These data are intended for use only at the published scale or smaller and are for reference purposes only. They are not to be construed as a legal document or survey
+    instrument. A detailed on-the-ground survey and historical analysis of a single site may differ from these data.
+
+    CREDIT
+
+    It is requested that the Indiana Department of Transportation be cited in any products generated from this data. The following source citation
+    should be included: [ROADS_2015_INDOT_IN: Indiana Roads from the Indiana Department of Transportation, 2015 (INDOT, 1:100,000, Line Shapefile), 20160701].
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+    Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405, and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+    resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+    damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+    maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Department of Transportation, Road Inventory Supervisor (Eric Rader)
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 100 North Senate Avenue
+        City: Indianapolis
+        State_or_Province: Indiana
+        Postal_Code: 46204
+        Country: USA
+      Contact_Voice_Telephone: 317-232-5428
+      Contact_Facsimile_Telephone: 317-232-5169
+      Contact_Electronic_Mail_Address: Wrader@indot.IN.gov
+      Hours_of_Service: 0730 to 1700 Eastern Standard Time
+      Contact_Instructions: Tuesday through Friday, except holidays
+
+  Data_Set_Credit: Data were supplied by INDOT personnel (Michelle Burgess, Roadway Inventory Analyst, INDOT).
+  Native_Data_Set_Environment: Esri ArcGIS version 10.3 file geodatabase line feature class format, approximately 38 Mb
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: This data set was provided by INDOT personnel and is assumed to be accurate.
+  Logical_Consistency_Report: This data set was provided by INDOT personnel and is assumed to be accurate.
+  Completeness_Report: This data set was provided by INDOT personnel and is assumed to be complete.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: All work is assumed accurate by INDOT personnel.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: None reported.
+
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Michelle Burgess (Roadway Inventory Analyst, INDOT)
+          Publication_Date: 20160701
+          Title: ROADS (Esri line feature class)
+          Geospatial_Data_Presentation_Form: Vector digital data
+          Publication_Information:
+            Publication_Place: Indianapolis, Indiana
+            Publisher: INDOT
+          Other_Citation_Details: None
+      Type_of_Source_Media: .ZIP file attachment to an electronic-mail (E-Mail)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20160701
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: ROADS (Esri line feature class)
+      Source_Contribution: Roads in Indiana
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an ESRI shapefile named GIS_RDS.SHP from INDOT personnel on September 13, 2006.
+        GIS_RDS.SHP was loaded into ESRI ArcMap and examined for completeness, attribute accuracy, and spatial
+        accuracy. IGS Personnel then deleted the following atttribute fields: "OBJECTID," "CENSUS1," "CENSUS2,"
+        "CFCC1," "CFCC2," "COUNTY," "CTL," "CTR," "BLK90L," "BLK90R," and "ALTNAME." IGS personnel then saved the
+        shapefile as ROADS_2005_INDOT_IN. It should also be noted that portions of the associated metadata provided
+        by INDOT for GIS_RDS.SHP were extracted and included in this metadata file.
+      Source_Used_Citation_Abbreviation: GIS_RDS.SHP
+      Process_Date: 20061212
+      Source_Produced_Citation_Abbreviation: ROADS_2005_INDOT_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an Esri line feature class named "ROADS" from INDOT personnel on July 1, 2016. ROADS was loaded into Esri ArcMap and examined
+        for completeness, attribute accuracy, and spatial accuracy. IGS personnel then exported the data to an Esri shapefile format named "ROADS_2015_INDOT_IN.SHP".
+      Source_Used_Citation_Abbreviation: ROADS (Esri line feature class)
+      Process_Date: 20160701
+      Source_Produced_Citation_Abbreviation: ROADS_2015_INDOT_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+        (U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+        and "Ordinate_Resolution."
+      Process_Date: 20161028
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Indiana
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 126381
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: ROADS_2015_INDOT_IN.DBF
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features
+    Attribute:
+      Attribute_Label: ROUTE_NAME
+      Attribute_Definition: Name of the road
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: ALTERNAME_
+      Attribute_Definition: Alternate name of the road
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: ALTERNATE1
+      Attribute_Definition: Second alternate name of the road
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: ROUTE_NAME
+      Attribute_Definition: Name of the road
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: COUNTY_COD
+      Attribute_Definition: Coded value of the Indiana County
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric Field
+    Attribute:
+      Attribute_Label: CITY_CODE
+      Attribute_Definition: Coded value of the Indiana City
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric Field
+    Attribute:
+      Attribute_Label: RTEL
+      Attribute_Definition: Value of the approximate elevation (feet) of the route segment
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric Field
+    Attribute:
+      Attribute_Label: RAMP_CODE
+      Attribute_Definition: Coded value describing the ramp segment of the road
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: SECTION_NO
+      Attribute_Definition: Value of the section for the route segment
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: ROUTE_ID
+      Attribute_Definition: Road segment Identification Number
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric Field
+    Attribute:
+      Attribute_Label: SECTION_NO
+      Attribute_Definition: Value of the section for the route segment
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: SHAPE_LENG
+      Attribute_Definition: Length of the road segment
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 6.936516
+          Range_Domain_Maximum: 74523.706033
+          Attribute_Units_of_Measure: Meters
+    Attribute:
+      Attribute_Label: JURISDICTI
+      Attribute_Definition: Jurisdiction description for the road segment (values -- Interstate, US Route, State Road, County Road, City Street)
+      Attribute_Definition_Source: Indiana Department of Transportation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Publication Sales
+      Contact_Position: Clerk
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-855-7636
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: IGSInfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+
+  Resource_Description: Downloadable data
+
+  Distribution_Liability:
+    CREDIT
+
+    It is requested that the Indiana Department of Transportation be cited in any products generated from this data. The following source citation
+    should be included: [ROADS_2015_INDOT_IN: Indiana Roads from the Indiana Department of Transportation, 2015 (INDOT, 1:100,000, Line Shapefile), 20160701].
+
+    WARRANTY
+
+    Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+    workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+    Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+    LIMITATION OF WARRANTIES AND LIABILITY
+
+    Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+    resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+    damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+    maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Department of Transportation
+      Contact_Position: Indiana Department of Transportation, Road Inventory Supervisor (Eric Rader)
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 100 North Senate Avenue
+        City: Indianapolis
+        State_or_Province: Indiana
+        Postal_Code: 46204
+        Country: USA
+      Contact_Voice_Telephone: 317-232-5428
+      Contact_Facsimile_Telephone: 317-232-5169
+      Contact_Electronic_Mail_Address: Wrader@indot.IN.gov
+      Hours_of_Service: 0730 to 1700 Eastern Standard Time
+      Contact_Instructions: Tuesday through Friday, except holidays
+
+  Resource_Description: Downloadable data
+
+  Distribution_Liability:
+    The following is excerpted from the metadata provided by INDOT:
+
+    "    INDOT Disclaimer
+    AS OF 01\01\2001
+
+    The Indiana Department of Transportation (INDOT) Provides these geographic data "as is" and the user accepts the data "as is", and assumes
+    all risks associated with its use.  By acceptance of this data, the user agrees not to transmit this data or provide access to it, or any
+    part of it, to another party unless the user shall include with the data a copy of this disclaimer.  INDOT makes no guarantee or warranty
+    concerning the accuracy of information contained in the geographic data.  INDOT further makes no warranties, either expressed or implied as
+    to any other matter whatsoever, including, without limitation, the condition of any product, or its fitness for any particular purpose. The
+    burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of
+    INDOT, no warranty, expressed or implied, is made by INDOT regarding the use of these data on any other system, nor does the fact of distribution
+    constitute or imply any such warranty.
+
+    In no event shall INDOT have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of
+    any kind, including, but not limited to, any loss of profits arising out of or reliance on the geographic data or arising out of the delivery,
+    installation, operation, or support by INDOT."
+
+Metadata_Reference_Information:
+  Metadata_Date: 20061212
+  Metadata_Review_Date: 20161028
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological Survey
+        Contact_Person: Chris Dintaman
+      Contact_Position: Geologist, GIS Specialist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-856-5654
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: cdintama@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+    IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
